@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0C68F1726BAD1400055A5D9 /* TwoSum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C68F0D26BAD1400055A5D9 /* TwoSum.framework */; };
+		A0C68F1C26BAD1400055A5D9 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C68F1B26BAD1400055A5D9 /* TwoSumTests.swift */; };
+		A0C68F1E26BAD1400055A5D9 /* TwoSum.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C68F1026BAD1400055A5D9 /* TwoSum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0C68F3026BAD8650055A5D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C68F2F26BAD8650055A5D9 /* AppDelegate.swift */; };
+		A0C68F3226BAD8650055A5D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C68F3126BAD8650055A5D9 /* SceneDelegate.swift */; };
+		A0C68F3426BAD8650055A5D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C68F3326BAD8650055A5D9 /* ViewController.swift */; };
+		A0C68F3726BAD8650055A5D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C68F3526BAD8650055A5D9 /* Main.storyboard */; };
+		A0C68F3926BAD8660055A5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C68F3826BAD8660055A5D9 /* Assets.xcassets */; };
+		A0C68F3C26BAD8660055A5D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C68F3A26BAD8660055A5D9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C68F1826BAD1400055A5D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C68F0426BAD13F0055A5D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C68F0C26BAD1400055A5D9;
+			remoteInfo = TwoSum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0C68F0D26BAD1400055A5D9 /* TwoSum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TwoSum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C68F1026BAD1400055A5D9 /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
+		A0C68F1126BAD1400055A5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C68F1626BAD1400055A5D9 /* TwoSumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoSumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C68F1B26BAD1400055A5D9 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
+		A0C68F1D26BAD1400055A5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C68F2D26BAD8650055A5D9 /* TwoSumExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoSumExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C68F2F26BAD8650055A5D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0C68F3126BAD8650055A5D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0C68F3326BAD8650055A5D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0C68F3626BAD8650055A5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0C68F3826BAD8660055A5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C68F3B26BAD8660055A5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0C68F3D26BAD8660055A5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C68F0A26BAD1400055A5D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C68F1326BAD1400055A5D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C68F1726BAD1400055A5D9 /* TwoSum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C68F2A26BAD8650055A5D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C68F0326BAD13F0055A5D9 = {
+			isa = PBXGroup;
+			children = (
+				A0C68F0F26BAD1400055A5D9 /* TwoSum */,
+				A0C68F1A26BAD1400055A5D9 /* TwoSumTests */,
+				A0C68F2E26BAD8650055A5D9 /* TwoSumExample */,
+				A0C68F0E26BAD1400055A5D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C68F0E26BAD1400055A5D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C68F0D26BAD1400055A5D9 /* TwoSum.framework */,
+				A0C68F1626BAD1400055A5D9 /* TwoSumTests.xctest */,
+				A0C68F2D26BAD8650055A5D9 /* TwoSumExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C68F0F26BAD1400055A5D9 /* TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				A0C68F1026BAD1400055A5D9 /* TwoSum.h */,
+				A0C68F1126BAD1400055A5D9 /* Info.plist */,
+			);
+			path = TwoSum;
+			sourceTree = "<group>";
+		};
+		A0C68F1A26BAD1400055A5D9 /* TwoSumTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C68F1B26BAD1400055A5D9 /* TwoSumTests.swift */,
+				A0C68F1D26BAD1400055A5D9 /* Info.plist */,
+			);
+			path = TwoSumTests;
+			sourceTree = "<group>";
+		};
+		A0C68F2E26BAD8650055A5D9 /* TwoSumExample */ = {
+			isa = PBXGroup;
+			children = (
+				A0C68F2F26BAD8650055A5D9 /* AppDelegate.swift */,
+				A0C68F3126BAD8650055A5D9 /* SceneDelegate.swift */,
+				A0C68F3326BAD8650055A5D9 /* ViewController.swift */,
+				A0C68F3526BAD8650055A5D9 /* Main.storyboard */,
+				A0C68F3826BAD8660055A5D9 /* Assets.xcassets */,
+				A0C68F3A26BAD8660055A5D9 /* LaunchScreen.storyboard */,
+				A0C68F3D26BAD8660055A5D9 /* Info.plist */,
+			);
+			path = TwoSumExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0C68F0826BAD1400055A5D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C68F1E26BAD1400055A5D9 /* TwoSum.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0C68F0C26BAD1400055A5D9 /* TwoSum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C68F2126BAD1400055A5D9 /* Build configuration list for PBXNativeTarget "TwoSum" */;
+			buildPhases = (
+				A0C68F0826BAD1400055A5D9 /* Headers */,
+				A0C68F0926BAD1400055A5D9 /* Sources */,
+				A0C68F0A26BAD1400055A5D9 /* Frameworks */,
+				A0C68F0B26BAD1400055A5D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoSum;
+			productName = TwoSum;
+			productReference = A0C68F0D26BAD1400055A5D9 /* TwoSum.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0C68F1526BAD1400055A5D9 /* TwoSumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C68F2426BAD1400055A5D9 /* Build configuration list for PBXNativeTarget "TwoSumTests" */;
+			buildPhases = (
+				A0C68F1226BAD1400055A5D9 /* Sources */,
+				A0C68F1326BAD1400055A5D9 /* Frameworks */,
+				A0C68F1426BAD1400055A5D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C68F1926BAD1400055A5D9 /* PBXTargetDependency */,
+			);
+			name = TwoSumTests;
+			productName = TwoSumTests;
+			productReference = A0C68F1626BAD1400055A5D9 /* TwoSumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0C68F2C26BAD8650055A5D9 /* TwoSumExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C68F3E26BAD8660055A5D9 /* Build configuration list for PBXNativeTarget "TwoSumExample" */;
+			buildPhases = (
+				A0C68F2926BAD8650055A5D9 /* Sources */,
+				A0C68F2A26BAD8650055A5D9 /* Frameworks */,
+				A0C68F2B26BAD8650055A5D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoSumExample;
+			productName = TwoSumExample;
+			productReference = A0C68F2D26BAD8650055A5D9 /* TwoSumExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C68F0426BAD13F0055A5D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A0C68F0C26BAD1400055A5D9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A0C68F1526BAD1400055A5D9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A0C68F2C26BAD8650055A5D9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A0C68F0726BAD13F0055A5D9 /* Build configuration list for PBXProject "TwoSum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0C68F0326BAD13F0055A5D9;
+			productRefGroup = A0C68F0E26BAD1400055A5D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C68F0C26BAD1400055A5D9 /* TwoSum */,
+				A0C68F1526BAD1400055A5D9 /* TwoSumTests */,
+				A0C68F2C26BAD8650055A5D9 /* TwoSumExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C68F0B26BAD1400055A5D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C68F1426BAD1400055A5D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C68F2B26BAD8650055A5D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C68F3C26BAD8660055A5D9 /* LaunchScreen.storyboard in Resources */,
+				A0C68F3926BAD8660055A5D9 /* Assets.xcassets in Resources */,
+				A0C68F3726BAD8650055A5D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C68F0926BAD1400055A5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C68F1226BAD1400055A5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C68F1C26BAD1400055A5D9 /* TwoSumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C68F2926BAD8650055A5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C68F3426BAD8650055A5D9 /* ViewController.swift in Sources */,
+				A0C68F3026BAD8650055A5D9 /* AppDelegate.swift in Sources */,
+				A0C68F3226BAD8650055A5D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C68F1926BAD1400055A5D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C68F0C26BAD1400055A5D9 /* TwoSum */;
+			targetProxy = A0C68F1826BAD1400055A5D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0C68F3526BAD8650055A5D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C68F3626BAD8650055A5D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C68F3A26BAD8660055A5D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C68F3B26BAD8660055A5D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0C68F1F26BAD1400055A5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0C68F2026BAD1400055A5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0C68F2226BAD1400055A5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TwoSum/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashant.TwoSum;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0C68F2326BAD1400055A5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TwoSum/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashant.TwoSum;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0C68F2526BAD1400055A5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoSumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashant.TwoSumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0C68F2626BAD1400055A5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoSumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashant.TwoSumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0C68F3F26BAD8660055A5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoSumExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashant.TwoSumExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0C68F4026BAD8660055A5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwoSumExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashant.TwoSumExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C68F0726BAD13F0055A5D9 /* Build configuration list for PBXProject "TwoSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C68F1F26BAD1400055A5D9 /* Debug */,
+				A0C68F2026BAD1400055A5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C68F2126BAD1400055A5D9 /* Build configuration list for PBXNativeTarget "TwoSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C68F2226BAD1400055A5D9 /* Debug */,
+				A0C68F2326BAD1400055A5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C68F2426BAD1400055A5D9 /* Build configuration list for PBXNativeTarget "TwoSumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C68F2526BAD1400055A5D9 /* Debug */,
+				A0C68F2626BAD1400055A5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C68F3E26BAD8660055A5D9 /* Build configuration list for PBXNativeTarget "TwoSumExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C68F3F26BAD8660055A5D9 /* Debug */,
+				A0C68F4026BAD8660055A5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C68F0426BAD13F0055A5D9 /* Project object */;
+}
