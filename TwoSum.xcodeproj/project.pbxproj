@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A092079226C10C5B00CE0393 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A092079126C10C5B00CE0393 /* TwoSum.swift */; };
 		A0C68F1726BAD1400055A5D9 /* TwoSum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C68F0D26BAD1400055A5D9 /* TwoSum.framework */; };
 		A0C68F1C26BAD1400055A5D9 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C68F1B26BAD1400055A5D9 /* TwoSumTests.swift */; };
 		A0C68F1E26BAD1400055A5D9 /* TwoSum.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C68F1026BAD1400055A5D9 /* TwoSum.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A092079126C10C5B00CE0393 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		A0C68F0D26BAD1400055A5D9 /* TwoSum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TwoSum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C68F1026BAD1400055A5D9 /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
 		A0C68F1126BAD1400055A5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				A0C68F1026BAD1400055A5D9 /* TwoSum.h */,
+				A092079126C10C5B00CE0393 /* TwoSum.swift */,
 				A0C68F1126BAD1400055A5D9 /* Info.plist */,
 			);
 			path = TwoSum;
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					A0C68F0C26BAD1400055A5D9 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					A0C68F1526BAD1400055A5D9 = {
 						CreatedOnToolsVersion = 12.3;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A092079226C10C5B00CE0393 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		A0C68F2226BAD1400055A5D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -453,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prashant.TwoSum;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		A0C68F2326BAD1400055A5D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -484,6 +492,7 @@
 		A0C68F2526BAD1400055A5D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TwoSumTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,6 +510,7 @@
 		A0C68F2626BAD1400055A5D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TwoSumTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
